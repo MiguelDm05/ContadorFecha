@@ -82,9 +82,9 @@ function contar() {
 
       if (Mes > 1) {
         tabla.style.color = "green";
-      } else if (Dia < 7) {
+      } else if (Dia <= 7) {
         tabla.style.color = "red";
-      } else if (Dia < 14) {
+      } else if (Dia <= 14) {
         tabla.style.color = "orange";
       }
 
